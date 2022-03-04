@@ -1,0 +1,309 @@
+/*BODY*/
+
+body {
+    margin: 0;
+    height: 1080px;
+    width: 2300px
+}
+
+html {
+    display: flex;
+    width: 680px;
+    margin-right: 0;
+    height: 1080px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%)
+}
+
+
+/* HEADER*/
+
+/* logo */
+
+header > svg {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+/* Navigation*/
+
+nav {
+    position: absolute;
+    left: 331px;
+    top: 114px;
+}
+/* navigation links */
+
+nav > a {
+    color: #6A707B;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+nav > .contacts {
+    margin-left: 30px;
+}
+
+nav > .how {
+    margin-left: 30px;
+}
+
+
+/*MAIN*/
+
+.text > h1 {
+    position: absolute;
+    left: 140px;
+    top: 374px;
+    color: #131821;
+    font-family: Georgia;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text > h2 {
+    position: absolute;
+    top: 433px;
+    left: 140px;
+    color: #6A707B;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 400px;
+    height: 56px;
+
+
+}
+
+/*image*/
+
+.image {
+    display: flex;
+    position: absolute;
+    left: 680px;
+}
+
+.image > svg {
+    height: 1080px;
+    max-width: 1620px;
+}
+
+
+/* form*/
+
+.form-control > input {
+
+    position: absolute;
+    width: 663px;
+    height: 60px;
+    left: 100px;
+    top: 539px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+.buttonIn {
+    width: 300px;
+    position: relative;
+}
+
+button {
+    background-color: #ffffff;
+    position: absolute;
+    border: none;
+    top: 550px;
+    left: 699px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*checkbox + terms*/
+
+.terms {
+    accent-color: #4066A5;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 140px;
+    top: 662px;
+}
+
+.terms > p {
+    min-width: 359px;
+    position: absolute;
+    left: 50px;
+    top: -13px;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.terms > input {
+    width: 26px;
+    height: 26px;
+    background: #4066A5;
+    border-radius: 3px;
+}
+.terms > p > a {
+    
+    color: #131821;
+}
+
+/*footer icons*/
+
+.border {
+    position: absolute;
+    top: 740px;
+    left: 140px;
+    border-top: 1px solid #E3E3E4;
+    width: 400px;
+}
+
+.footer_icons {
+    position: absolute;
+    top: 791px;
+    width: 198px;
+   
+    
+}
+
+.footer_icons > a > .icon_fb{
+    position: absolute;
+    left: 218px;
+}
+.footer_icons > a > .icon_fb:hover{
+    fill: #4066A5;
+    stroke: white;
+}
+
+.footer_icons > a > .icon_fb:active{
+    fill:  #2F4A80;
+    stroke: white;
+}
+
+
+.footer_icons > a > .icon_ig:hover{
+    fill: #C13584;
+    stroke: white;
+}
+
+.footer_icons > a > .icon_ig:active{
+    fill:  #8F2762;
+    stroke: white;
+}
+
+.footer_icons > a > .icon_tw:hover{
+    fill: #1DA1F2;
+    stroke: white;
+}
+
+.footer_icons > a > .icon_tw:active{
+    fill:  #177FBF;
+    stroke: white;
+}
+
+.footer_icons > a > .icon_yt:hover{
+    fill: #FF0000;
+    stroke: white;
+}
+
+.footer_icons > a > .icon_yt:active{
+    fill:  #CC0000;
+    stroke: white;
+}
+
+
+
+.footer_icons > a > .icon_ig{
+    position: absolute;
+    left: 284px;
+}
+
+.footer_icons > a > .icon_tw{
+    position: absolute;
+    left: 350px;
+}
+
+.footer_icons > a > .icon_yt{
+    position: absolute;
+    left: 416px;
+}
+
+
+
